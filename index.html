@@ -1,141 +1,98 @@
-
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoyGaboYT - Creador de contenido</title>
-    <link rel="icon" type="image/png" href="6911631.jpg" />
-
-    </head>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #0a0a0a;
-            color: #ffffff;
-        }
-        header {
-            background-color: #1f1f1f;
-            padding: 30px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            font-size: 1.2em;
-            color: #cccccc;
-        }
-        section {
-            padding: 40px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .video iframe {
-            width: 100%;
-            height: 400px;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .gallery img {
-            width: 200px;
-            height: auto;
-            border-radius: 8px;
-        }
-        footer {
-            background-color: #1f1f1f;
-            text-align: center;
-            padding: 20px;
-            color: #aaaaaa;
-            font-size: 0.9em;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 5px;
-            background-color: #ff5050;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>SoyGaboYT</h1>
-    <p>| Creador de contenido boliviano |</p>
-    <a href="https://www.youtube.com/@SoyGaboYT" class="button">YouTube</a>
-    <a href="https://tiktok.com/@gabox_13" class="button">TikTok</a>
-    <a href="https://instagram.com/gabox_13" class="button">Instagram</a>
-</header>
-
-<section>
-    <h2>Sobre mí</h2>
-    <p>Me llamo <strong>Gabriel Gonzales</strong> y soy creador de contenido de <strong>Cochabamba, Bolivia</strong>. Juego <strong>Free Fire</strong> y <strong>Minecraft</strong>, subo mis mejores jugadas, reacciones y clips a YouTube, TikTok e Instagram. También hago directos y comparto momentos divertidos con mi comunidad.</p>
-</section>
-
-<section class="video">
-    <h2>Último video</h2>
-    <iframe src="https://www.youtube.com/embed/2dzo_PE4XAY" frameborder="0" allowfullscreen></iframe>
-</section>
-
-<section>
-    <h2>Miniaturas destacadas</h2>
-    <div class="gallery">
-        <img src="6911631.jpg" alt="Miniatura 1">
-        <img src="https://via.placeholder.com/200x120.png?text=Miniatura+2" alt="Miniatura 2">
-        <img src="https://via.placeholder.com/200x120.png?text=Miniatura+3" alt="Miniatura 3">
-    </div>
-</section>
-
-<section>
-    <h2>Contacto</h2>
-    <p>📧 Email: gabox13@outlook.com</p>
-    <p>📍 Cochabamba, Bolivia</p>
-</section>
-
-    <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SoyGaboYT - Redes Sociales</title>
-
-  <!-- Íconos de Font Awesome -->
+  <title>SoyGaboYT - Creador de contenido boliviano</title>
+  <link rel="icon" type="image/png" href="6911631.jpg" />
+    </head>
+  
+  <!-- Font Awesome para íconos sociales -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
   <style>
     body {
-      background-color: #111;
-      color: white;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1e88e5;
+      padding: 30px 20px;
       text-align: center;
-      padding-top: 50px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 1.2em;
+      font-weight: 500;
     }
 
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 30px;
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #1e88e5;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      font-weight: 700;
       color: #1e88e5;
     }
+    p {
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
 
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: calc(50% - 7.5px);
+      border-radius: 10px;
+      box-shadow: 0 0 10px #1e88e5aa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+      border-top: 1px solid #333;
+      margin-top: 40px;
+    }
+
+    /* Redes sociales al final */
     .social-icons {
       display: flex;
       justify-content: center;
       gap: 40px;
+      margin-top: 20px;
     }
 
     .social-icons a {
       text-decoration: none;
       color: white;
-      font-size: 3em;
+      font-size: 2.5em;
       transition: transform 0.2s, color 0.2s;
     }
 
@@ -159,27 +116,60 @@
 </head>
 <body>
 
-  <h1>Sígueme en mis redes</h1>
+  <header>
+    <h1>SoyGaboYT</h1>
+      <p>| Creador de contenido boliviano | </p>
+  </header>
 
-  <div class="social-icons">
-    <a class="youtube" href="https://youtube.com/soygaboyt" target="_blank" aria-label="YouTube">
-      <i class="fab fa-youtube"></i>
-    </a>
-    <a class="instagram" href="https://instagram.com/gabox_13" target="_blank" aria-label="Instagram">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a class="tiktok" href="https://tiktok.com/@soygaboyt" target="_blank" aria-label="TikTok">
-      <i class="fab fa-tiktok"></i>
-    </a>
-  </div>
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>Hola, soy <strong>Gabriel Gonzales Huanca</strong>, más conocido como <em>SoyGaboYT</em>, creador de contenido y streamer boliviano de 20 años de Cochabamba.</p>
+      <p>Mi pasión es el gaming, especialmente <strong>Free Fire</strong> y <strong>Minecraft</strong>, donde comparto mis mejores jugadas, reacciones y momentos con la comunidad en YouTube, TikTok e Instagram.</p>
+      <p>Estoy construyendo una marca gamer que representa a Bolivia con estilo y creatividad. ¡Gracias por acompañarme en esta aventura!</p>
+    </section>
 
-</body>
-</html>
+    <section>
+      <h2>Último video</h2>
+      <iframe src="https://www.youtube.com/embed/2dzo_PE4XAY" allowfullscreen></iframe>
+    </section>
 
+    <section>
+      <h2>Galería</h2>
+      <div class="gallery">
+        <img src="6911631.jpg" alt="Miniatura 1" />
+        <img src="img/miniatura2.jpg" alt="Miniatura 2" />
+        <img src="img/miniatura3.jpg" alt="Miniatura 3" />
+        <img src="img/miniatura4.jpg" alt="Miniatura 4" />
+      </div>
+    </section>
 
-<footer>
-    &copy; 2025 SoyGaboYT. Todos los derechos reservados.
-</footer>
+    <section>
+      <h2>Contacto</h2>
+      <p>📧 <a href="mailto:gabox13@outlook.com">gabox13@outlook.com</a></p>
+      <p>📍 Cochabamba, Bolivia</p>
+      <p>🐱 Amante de los gatos y fan de la edición</p>
+    </section>
+
+    <section>
+      <h2>Mis redes sociales</h2>
+      <div class="social-icons">
+        <a class="youtube" href="https://youtube.com/@soygaboyt" target="_blank" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a class="instagram" href="https://instagram.com/gabox_13" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="tiktok" href="https://tiktok.com/@gabox_13" target="_blank" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SoyGaboYT. Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 </html>
