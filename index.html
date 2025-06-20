@@ -6,9 +6,11 @@
   <title>SoyGaboYT - Creador de contenido boliviano</title>
   <link rel="icon" type="image/png" href="6911631.jpg" />
 
-  <!-- Font Awesome (versión libre y funcional) -->
+  <!-- Fuente personalizada -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+  <!-- Font Awesome para íconos sociales -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,6 +30,10 @@
       margin: 0;
       font-size: 2.8em;
       letter-spacing: 2px;
+      font-family: 'Bungee', cursive;
+      animation: fadeInMove 1.5s ease-out;
+      color: white;
+      text-shadow: 0 0 10px #fff, 0 0 20px #900C3F, 0 0 30px #900C3F;
     }
 
     header p {
@@ -115,6 +121,17 @@
 
     .tiktok:hover {
       color: #69c9d0;
+    }
+
+    @keyframes fadeInMove {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
     }
   </style>
 </head>
