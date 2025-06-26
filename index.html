@@ -19,9 +19,11 @@
     }
 
     header {
-      background: #1e88e5;
+      background: #000;
       padding: 30px 20px;
       text-align: center;
+      position: relative;
+      overflow: hidden;
     }
 
     header h1 {
@@ -31,13 +33,28 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       animation: fadeInMove 1.5s ease-out;
       color: white;
-      text-shadow: 0 0 10px #fff, 0 0 20px #900C3F, 0 0 30px #900C3F;
     }
 
     header p {
       margin: 8px 0 0;
       font-size: 1.2em;
       font-weight: 500;
+    }
+
+    .corner-icon {
+      position: absolute;
+      top: 10px;
+      width: 40px;
+      height: 40px;
+      opacity: 0.9;
+    }
+
+    .corner-icon.left {
+      left: 10px;
+    }
+
+    .corner-icon.right {
+      right: 10px;
     }
 
     main {
@@ -136,6 +153,10 @@
 <body>
 
   <header>
+    <!-- Íconos de creeper en las esquinas -->
+    <img src="https://i.imgur.com/8PWjXEH.png" class="corner-icon left" alt="Creeper Izq" />
+    <img src="https://i.imgur.com/8PWjXEH.png" class="corner-icon right" alt="Creeper Der" />
+    
     <h1>SoyGaboYT</h1>
     <p>| Creador de contenido boliviano |</p>
   </header>
